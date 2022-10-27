@@ -9,7 +9,7 @@ In this analysis, different machine learning techniques were used to analyze cre
 - The balanced accuracy score for the ClusterCentroids, model is .51 and the overall precision is .99.
 - The balanced accuracy score for the BalancedRandomForestClassifier model is .79, and the overall precision is .99.
 - The balanced accuracy score for the EasyEnsembleClassifier model is .93, and the overall precision is .99
-- The balanced accuracy score for the SMOTEENN model is .64, and the overall precision is .99.
+- The balanced accuracy score for the SMOTEENN model is .64, and the overall precision is .99. 
 With all of the models having a precision of .99, the EasyEnsembleClassifier model seems to be the most successful since it has the highest accuracy.
 
 <img width="807" alt="Screen Shot 2022-10-27 at 1 47 52 AM" src="https://user-images.githubusercontent.com/107032720/198212386-7a4464b0-c2c5-48ef-bd81-8d767245f15c.png">
