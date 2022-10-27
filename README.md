@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview of the Analysis
-In this analysis, different machine learning techniques were used to analyze credit card risk. RandomOverSampler and SMOTE algorithms were used for oversampling while the ClusterCentroids algorithm was used for undersampling credit card data from obtained from LendingClub. Then, BalancedRandomForestClassifier and EasyEnsembleClassifier were used for comparison measure.
+In this analysis, different machine learning techniques were used to analyze credit card risk. RandomOverSampler, SMOTE, and SMOTEENN algorithms were used for oversampling while the ClusterCentroids algorithm was used for undersampling the credit card data obtained from LendingClub. Then, BalancedRandomForestClassifier and EasyEnsembleClassifier were used for comparison measure.
 
 ## Results
 - The balanced accuracy score for the RandomOversampler model is .65, and the overall precision is .99.
@@ -16,4 +16,4 @@ With all of the models having a precision of .99, the EasyEnsembleClassifier mod
 
 
 ## Summary
-Each model used in this analysis returned an almost perfect precision score, but the models with the highest level of accuracy were the BalancedRandomForestClassifier and the EasyEnsemblerClassifier. I would recommend using one of these models for machine learning for most accuracy, especially the EasyEnsembleClassifier.
+Each model used in this analysis returned an almost perfect precision score, but the models with the highest level of accuracy were the BalancedRandomForestClassifier and the EasyEnsemblerClassifier. I would recommend using one of these models for machine learning for most accuracy, especially the EasyEnsembleClassifier. I would not recommend using the ClusterCentroids model since this model's accuracy score was only slightly over 50%.
